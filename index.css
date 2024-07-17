@@ -1,0 +1,81 @@
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 9rem;
+    height: 2.3rem;
+}
+.topics a{
+    margin-top: 0%;
+    align-items: center;
+    text-decoration: none;
+    margin: 0.5rem;
+    color: black;
+}
+
+.search-notif-user .notification{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.search-notif-user .user{
+    width: 1.6rem;
+    border-radius: 4rem;
+}
+.search-notif-user input{
+    padding: 0.6rem;
+    width: 6rem;
+    height: 1.2rem;
+}
+.search-notif-user{
+    display: flex;
+    align-items: center;
+}
+
+/* Main */
+
+main{
+    width: 98%;
+    height: 57%;
+    border: 1px solid black;
+    margin: auto;
+}
+h1{
+    color: rgb(188, 27, 27);
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    height: 1.3rem;
+}
+.stars, .age-limit, .duration{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.user-rating .imdb{
+    color:gray
+}
+.age-limit{
+    border: 1px solid black;
+}
+.details nav ul a{
+    display: block;
+    text-align: left;
+    padding-left:  0%;
+    margin: 0;   
+    
+}
+.details a{
+    font-weight: bold;
+    color: rgb(205, 29, 29);
+}
+.details span{
+    color: black;
+}
