@@ -34,6 +34,11 @@ header{
     display: flex;
     align-items: center;
 }
+.search-notif-user i{
+    position:absolute;
+    right:4rem;
+    color: gray;
+}
 
 /* Main */
 
@@ -95,7 +100,7 @@ main button{
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    font-size:0.8rem;
+    font-size:0.8rem; 
  }
 .movie-card{
     border: 1px solid black;
@@ -122,6 +127,67 @@ main button{
     display: inline;
     margin-right: .5rem;
 }
-/* Section recommende for you*/
+section .movie-header h2,p{
+    margin-bottom: 0;
+}
 
- 
+
+/* Section recommende for you*/
+/* Footer */
+.first nav ul a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: gray;
+}
+footer div p span{
+    font-weight: bold;
+}
+
+.first{
+    background-color: rgb(222, 219, 219);
+    width: 25rem;  
+    height: 8rem;
+    box-sizing: border-box;
+}
+.second{
+    background-color: rgb(222, 219, 219);
+    width: 9rem;
+    height: 8rem;
+
+}
+.third{
+    background-color: rgb(222, 219, 219);
+    width: 14rem;
+    height: 8rem; 
+}
+.second div img{
+    width: 2rem;
+    height: rem;
+    margin-right: 0.6rem;
+    
+}
+.third div img{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+footer ul{
+  padding: 0;
+  justify-content: flex-start;
+}
+.second , .third p{
+    color: gray;
+}
+.store , .social-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
