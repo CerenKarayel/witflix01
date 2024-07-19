@@ -58,6 +58,9 @@ h1{
     width: 20rem;
     height: 1.3rem;
 }
+.stars{
+    color: rgb(217, 20, 20);
+}
 .rating .stars, .age-limit, .duration{
     display: flex;
     align-items: center;
